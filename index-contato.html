@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato - Espaço Nails Designer</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<!--Cabeçalho=header-->
+		<header>
+			<div class="caixa">
+				<h1><img src="img/logo-principal.png" alt="Logo Espaço Nails Designer"></h1>
+
+				<nav>
+					<ul>
+						<li><a href="home.html" rel="next" target="self">Home</a></li>
+						<li><a href="produtos.html" rel="next" target="self">Produtos</a></li>
+						<li><a href="index-contato.html" rel="next" target="self">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			<!--O elemento <main> define o conteúdo principal dentro do <body> em seu documento ou aplicação. Entende-se como 
+			  conteúdo principal aquele relacionado diretamente com o tópico central da página ou com a funcionalidade central da aplicação-->
+			<form>
+				<!--O elemento HTML <form> representa uma seção de um documento que contém controles interativos que permitem ao usuário
+				 submeter informação a um determinado servidor web.
+				 Um elemento HTML <label> representa uma legenda para um item em uma interface de usuário.-->
+				<label for="nomesobrenome">Nome e sobrenome</label>
+				<input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Nome Sobrenome">
+
+				<label for="email">Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+               <!--O elemento  HTML <textarea> representa um controle de edição para uma caixa de texto, útil quando você quer
+				 permitir ao usuário informar um texto  extenso em formato livre, como um comentário ou formulário de retorno.
+			     O rows e cols atributos permitem especificar um tamanho exato para o <textarea> pegar.Definir isso é uma boa
+				 idéia para manter a consistência, pois os padrões do navegador podem ser diferentes.-->
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="60" rows="5" id="mensagem" class="input-padrao" required></textarea>
+
+				<fieldset>
+					<legend>Como prefere o nosso contato?</legend>
+					<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+					
+					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+					
+					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<!--Seletor com as opções no mesmo botão-->
+					<select>
+						<option>Manhã</option>
+						<option>Tarde</option>
+						<option>Noite</option>
+					</select>
+				</fieldset>
+
+				<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+			<table>
+				<!--O que é a tag TD? A tag <td> cria uma coluna para inserção de conteúdos, junto a diversas outras colunas em
+			 uma mesma linha (definida pela tag <tr> ), dentro do bloco de uma tabela (definida pela tag <table> ). As tags <td> 
+			 precisam sempre estar dentro de tags <tr> , que por sua vez precisam estar sempre dentro de uma tag <table> .-->
+				<tr>
+					<td>Dia</td>
+					<td>Horário</td>
+				</tr>
+				<tr>
+					<td>Segunda</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Quarta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+				<tr>
+					<td>Sexta</td>
+					<td>8h ~ 20h</td>
+				</tr>
+			</table>
+		</main>
+
+		<footer>
+			<img src="img/logo-simples.png" alt="Logo Espaço Nails Designer">
+			<p class="copyright">&copy; Copyright Espaço Nails Designer - 2021</p>
+		</footer>
+	</body>
+</html>
