@@ -1,14 +1,25 @@
-#banner {
-	width:100%;
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
+body{
+	background-color: #fac7eb;
 }
 
+.banner 
+   img {
+	width: 1330px; 
+	height: 450px;
+   }
+  
 .principal{
-	background: #CCCCCC;
+	background: #fac7eb;
 	padding: 30px;
 }
 
 .titulo-principal {
 	padding-left: 20px;
+	font-family: 'Redressed', cursive;
+	font-size: 50px;
+	background-color: #fac7eb;
 }
 
 .titulo-centralizado {
@@ -24,7 +35,7 @@ p {
 }
 
 em strong {
-	color: #FF0000;
+	color: #860646;
 }
 
 .itens {
@@ -32,17 +43,15 @@ em strong {
 }
 
 .beneficios {
-	background: #FFFFFF;
-	padding: 20px;
+    ;
 }
 
 ul {
-	display: inline-block;
+	display: flexbox;
 	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
+	text-align: left
 }
 
 .imagembeneficios {
-	width: 50%;
+	text-align: left;
 }
