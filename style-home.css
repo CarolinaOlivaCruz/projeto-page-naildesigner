@@ -6,9 +6,15 @@ body{
 
 .banner 
    img {
-	width: 1330px; 
-	height: 450px;
+	border-radius: 50px;
+	width: 800px; 
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
    }
+  
+
   
 .principal{
 	background: #fac7eb;
@@ -20,6 +26,7 @@ body{
 	font-family: 'Redressed', cursive;
 	font-size: 50px;
 	background-color: #fac7eb;
+    text-align: center;
 }
 
 .titulo-centralizado {
@@ -42,16 +49,24 @@ em strong {
 	font-style: italic
 }
 
-.beneficios {
-    ;
+.beneficios 
+img {
+	    border-radius: 50px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto
+		
 }
 
-ul {
+ol {
+	padding-left: 255px;
 	display: flexbox;
 	vertical-align: top;
-	text-align: left
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 30px;
 }
 
-.imagembeneficios {
-	text-align: left;
-}
+
+
