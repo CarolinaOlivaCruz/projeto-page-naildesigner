@@ -1,14 +1,36 @@
 header {
-	background: #BBBBBB;
+	background: #fac7eb;
 	padding: 20px 0;
+	height: 300px;
 }
-
 
 .caixa {
 	position: relative;
 	width: 940px;
+	height: 100px;
 	margin: 0 auto;
 }
+
+.caixa
+img{
+	border-radius: 50px;
+	width: 60%; 
+	height: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+.caixa
+ul{
+	position: relative;
+	top: -100px;
+	right: 0;
+	
+	
+}
+
 
 nav {
 	position: absolute;
@@ -79,16 +101,22 @@ nav a:hover {
 	margin-top: 10px;
 }
 
-footer {
+footer 
+img{
 	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
+	padding: 20px 0;
+	width: 50px; 
+	height: 100px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .copyright {
-	color: #FFFFFF;
+	color: #0e0d0d;
 	font-size: 13px;
 	margin: 20px 0 0;
+	text-align: center;
 }
 
 main {
