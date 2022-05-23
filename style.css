@@ -102,6 +102,7 @@ img{
 }
 
 .copyright {
+
 	top: 100%;
 	color: #0e0d0d;
 	font-size: 13px;
@@ -178,13 +179,10 @@ td, th {
 .serviços
 img{
 	width: 250px;
-	border-radius: 25px;
 
-	
 }
 
 .serviços li {
-	position: relative;
 	display: inline-block;
 	text-align: center;
 	width: 30%;
